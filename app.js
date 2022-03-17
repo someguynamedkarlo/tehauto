@@ -5,5 +5,5 @@ new fullpage ('#fullpage', {
 
 if (screen.width <= 700) {
     document.location = "index2.html";
-    stop;
+    break;
 }
