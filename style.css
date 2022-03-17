@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-size: 30px;
    background: linear-gradient(to left top , rgb(224, 224, 224), rgb(56, 56, 56) );
+  
 }
 
 * {
@@ -37,25 +38,12 @@ body {
     bottom: 30%;
 }
 
-html {
-    position: fixed;
-    z-index: 99;
-}
-
-nav {
+.servis {
     
-    justify-content: space-around;
-    align-items: flex-start;
-    min-height: 20pxh;
-    font-family: 'Open-Sans', sans-serif;
-    background-color: rgb(143, 143, 143);
+    font-size: 30px;
+
 }
 
-.nav-links {
-    display:flex;
-    width: 100px;
-    justify-content: space-around;
-    background-color: black;
+.s1 {
+    bottom: 8%;
 }
-
-
