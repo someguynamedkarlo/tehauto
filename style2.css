@@ -12,6 +12,10 @@ body {
 }
 
 
-.s4 {
-    align-items: center;
+.cont {
+text-align: center;
+}
+
+.cont2 {
+   text-align: center; 
 }
