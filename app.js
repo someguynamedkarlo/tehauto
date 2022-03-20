@@ -3,6 +3,5 @@ new fullpage ('#fullpage', {
     navigation: true,
 })
 
-if (screen.width <= 700) {
-    document.location = "index2.html";
-}
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
