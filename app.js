@@ -3,7 +3,9 @@ new fullpage ('#fullpage', {
     navigation: true,
 })
 
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const detectDeviceType = () =>
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    ? 'Mobile'
+    : 'Desktop';
 
-console.log(isMobile)
-
+console.log(detectDeviceType)
