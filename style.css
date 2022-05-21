@@ -1,50 +1,91 @@
-body {
-    background-color: rgb(255, 255, 255);
-    font-family: 'Open-Sans', sans-serif;
-    text-align: center;
-    font-size: 30px;
-   background: linear-gradient(to left top , rgb(224, 224, 224), rgb(56, 56, 56) );
-  
+body{
+font-family: 'Heebo', sans-serif;
+background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+text-align: center;
+margin: 0;
+
 }
 
-* {
-    margin: 0;
-    padding: 0;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+   
 
-.cont {
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 12cm;
+  font-size: large;
+  
+}
+ul {
+    list-style-type: none;
+}
+.body-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Allerta', sans-serif;
+}
+.anim2{
     position: absolute;
-    right: 70%;
-    font-size: 60px;
-    top: 30%;
+    bottom: 15%;
+    right: 20%;
 }
+.Home{
+    font-size: 40px;
 
-.cont2 {
     position: absolute;
-    right: 67%;
-    font-size: 55px;
-    top: 45%;  
+    left: 43%;
+    top: 25%;
 }
-
-.phone1 {
-    position: absolute;
-    right: 30%;
-    top: 30%;
-    max-height: fit-content;
-}
-
-.s4 {
-    bottom: 30%;
-}
-
-.servis {
+.Lo{
     
     font-size: 30px;
-
+    
+    position: absolute;
+    left: 43%;
+    top: 25%;
+}
+.Ko{
+    font-size: 30px;
+    position: absolute;
+    left: 43%;
+    top: 25%;
+}
+.Rv{
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    
 }
 
-.s2 {
-    bottom: 8%;
+.navbar ul li:hover a{ 
+    color:#FFF;
 }
-
+  
+  
