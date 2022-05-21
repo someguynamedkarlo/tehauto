@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tehauto</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="pictures/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Heebo:wght@200;300&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
    
     
     <nav>
-        <div class="navbar">
+        <div class="heading">
             <ul class="nav-links">
                 <li><a href="index.html">Početna</a></li>
                 <li><a href="rv.html">Radno vrijeme</a></li>
@@ -31,17 +31,19 @@
         </div>
     </nav>
 
-   <main class="main">
-       <section data-router-view="Home" class="Home">
-        <h1>Tehauto</h1>
+   <main >
+       <section data-router-view="Lo" class="Lo">
+        <h1 class="main">Lokacija</h1>
+        
        </section>
    </main>
+   <iframe class="anim2" src="https://www.google.com/maps/embed?pb=!4v1653065522646!6m8!1m7!1sqpJrD1n9PYkPBsXoto4ibQ!2m2!1d45.36146399768635!2d14.3915518686271!3f28.211751157586946!4f-5.048135223277569!5f0.7820865974627469" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-  <script>
-      gsap.from("main", {opacity: 0, duration: 1.5,y:-50 ,ease: Circ.easeOut})
-     
-      if (innerWidth<700){document.location="index2.html"}
-  </script>
-  
+<script>
+  gsap.from("main", {opacity: 0, duration: 1.5,y:-50 ,ease: Circ.easeOut})
+    gsap.from("iframe", {opacity: 0, duration: 1.5, y:+200})
+   
+    if (innerWidth<700){document.location="index2.html"}
+</script>
 </body>
 </html>
